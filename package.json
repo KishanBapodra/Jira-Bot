@@ -1,0 +1,19 @@
+{
+  "name": "jira-codex-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Turn new Jira issues into local Codex pull requests.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node bin/setup.mjs",
+    "start": "node src/index.mjs",
+    "doctor": "node bin/doctor.mjs",
+    "install-service": "node bin/install-service.mjs",
+    "retry": "node bin/retry.mjs",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
